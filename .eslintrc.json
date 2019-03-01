@@ -1,0 +1,15 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["react-app", "prettier"],
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"plugins": ["import", "prettier", "react"],
+	"rules": {
+		"prettier/prettier": ["error"]
+	}
+}
