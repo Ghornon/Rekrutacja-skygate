@@ -8,10 +8,68 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+	font-weight: normal;
+}
+
 .app {
 	padding: 20px;
 
 	&--header {
 		padding-bottom: 20px;
+	}
+
+	&--builder {
+		list-style: none;
+		padding: 0;
+		width: 100%;
+	}
+
+	&--builder-item {
+		padding-left: 20px;
+	}
+
+	&--builder-box {
+		width: 300px;
+		margin: 20px 0;
+		outline: 1px solid gray;
+		text-align: right;
+	}
+
+	&--label {
+		display: flex;
+		justify-content: space-between;
+		padding: 5px;
+	}
+
+	&--input {
+		width: 200px;
+		box-sizing: border-box;
+
+		&-condition {
+			box-sizing: border-box;
+			width: 100px;
+		}
+	}
+
+	&--button {
+		box-sizing: border-box;
+		background: lightgray;
+		padding: 5px;
+		margin: 10px;
+		border: 1px solid gray;
+	}
+
+	&--modal {
+		box-sizing: border-box;
+		background: lightgray;
+		padding: 5px;
+		margin: 10px;
+		border: 1px solid gray;
+		position: fixed;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		cursor: pointer;
 	}
 }
