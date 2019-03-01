@@ -1,4 +1,4 @@
-export function addElement(childOf) {
+export function addElement(childOf = 0) {
 	const newElement = {
 		question: '',
 		type: 'text',

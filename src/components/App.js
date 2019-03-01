@@ -12,7 +12,7 @@ class App extends Component {
 				value="Add Input"
 				className="app--button"
 				onClick={() => {
-					addElement(0);
+					addElement();
 				}}
 			/>
 		));

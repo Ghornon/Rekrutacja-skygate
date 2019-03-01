@@ -48,7 +48,7 @@ h1 {
 
 		&-condition {
 			box-sizing: border-box;
-			width: 100px;
+			width: 90px;
 		}
 	}
 
@@ -58,18 +58,5 @@ h1 {
 		padding: 5px;
 		margin: 10px;
 		border: 1px solid gray;
-	}
-
-	&--modal {
-		box-sizing: border-box;
-		background: lightgray;
-		padding: 5px;
-		margin: 10px;
-		border: 1px solid gray;
-		position: fixed;
-		bottom: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		cursor: pointer;
 	}
 }
