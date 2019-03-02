@@ -1,7 +1,6 @@
 {
-	"name": "skygate",
-	"version": "0.1.0",
-	"private": true,
+	"name": "skygate-recruitment-task-js",
+	"version": "1.0.0",
 	"dependencies": {
 		"idb-keyval": "^3.1.0",
 		"node-sass": "^4.11.0",
