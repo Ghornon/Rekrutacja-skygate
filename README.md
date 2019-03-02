@@ -2,7 +2,7 @@
 
 ### [Demo](https://skygate-recruitment-task-js.netlify.com/) site available on [netlify](https://www.netlify.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and
 
 ## Available Scripts
 
@@ -27,3 +27,7 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
