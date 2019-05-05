@@ -1,17 +1,19 @@
 import React from 'react';
 
 import { connectWithStore } from '../store/Store';
-import Box from './Box';
+import { BuilderBox } from './index';
 
 const BuilderUI = ({ formData = [] }) => {
-	const ListItems = formData.map(element => {
+	const listItems = formData.map(element => {
 		if (element.childOf === 0) {
-			return <Box element={element} formData={formData} key={`box_item_${element.id}`} />;
+			return (
+				<BuilderBox element={element} formData={formData} key={`box_item_${element.id}`} />
+			);
 		}
 		return false;
 	});
 
-	return <ul className="app--builder">{ListItems}</ul>;
+	return <ul className="app--builder">{listItems}</ul>;
 };
 
 const Builder = connectWithStore(BuilderUI);

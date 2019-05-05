@@ -11,48 +11,6 @@ export class Provider extends Component {
 		this.state = {
 			primaryKey: 5,
 			formData: []
-			// formData: [
-			// 	{
-			// 		question: 'Lorem ipsum?',
-			// 		type: 'text',
-			// 		condition: 'equals',
-			// 		conditionValue: 'lorem',
-			// 		childOf: 0,
-			// 		id: 1
-			// 	},
-			// 	{
-			// 		question: 'Lorem ipsum child?',
-			// 		type: 'text',
-			// 		condition: 'equals',
-			// 		conditionValue: 'asd',
-			// 		childOf: 1,
-			// 		id: 2
-			// 	},
-			// 	{
-			// 		question: 'Lorem ipsum child?',
-			// 		type: 'radio',
-			// 		condition: 'equals',
-			// 		conditionValue: 1,
-			// 		childOf: 1,
-			// 		id: 3
-			// 	},
-			// 	{
-			// 		question: 'Lorem ipsum?',
-			// 		type: 'text',
-			// 		condition: 'equals',
-			// 		conditionValue: 'lorem',
-			// 		childOf: 0,
-			// 		id: 4
-			// 	},
-			// 	{
-			// 		question: 'Lorem ipsum child of child?',
-			// 		type: 'text',
-			// 		condition: 'equals',
-			// 		conditionValue: 'lorem',
-			// 		childOf: 2,
-			// 		id: 5
-			// 	}
-			// ]
 		};
 	}
 

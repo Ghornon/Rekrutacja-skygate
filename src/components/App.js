@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { Provider, connectWithStore } from '../store/Store';
 
-import Builder from './Builder';
+import { Builder } from './index';
 
 class App extends Component {
 	render() {
-		console.log(this.props);
 		const AddInput = connectWithStore(({ addElement }) => (
 			<input
 				type="button"
 				value="Add Input"
-				className="app--button"
+				className="btn btn-outline-primary"
 				onClick={() => {
 					addElement();
 				}}
@@ -23,7 +22,7 @@ class App extends Component {
 					<header className="app--header">
 						<h1>Form Builder</h1>
 					</header>
-					<Builder parent={0} />
+					<Builder />
 					<AddInput />
 				</div>
 			</Provider>
